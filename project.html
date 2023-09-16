@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .flexbox{
+            display: flex;
+            justify-content: space-between;
+        }
+        /* .first{
+            width: 100%;
+            height:100px;
+            border:2px solid blue;
+        } */
+         .first,.second{
+            width:100%;
+            height:50px;
+            /* border: 1px solid gray; */
+            display: flex;
+            justify-content: space-between;
+            align-items:center; 
+            box-shadow: 2px;
+           
+            
+        }
+        .l{
+            padding-left: 30px;
+        }
+        .left{
+            padding-left: 40px;
+        }
+        .l a{
+           padding: 20px;
+           font-size: 14px;
+           text-decoration: none;
+        }
+        .r a{
+            padding: 20px;
+            font-size: 14px;
+            text-decoration: none;
+        }
+        .l li{
+            list-style-type: none;
+        }
+        .r li{
+            list-style-type: none;
+        }
+        .right a{
+            padding:0px;
+            font-size: 14px;
+            text-decoration: none;
+        }
+       .right li{
+        
+        list-style-type: none;
+        padding: 10px;
+        
+       }
+       .right{
+        width: 100%px;
+        padding-right: 30px;
+       }
+       .btn{
+        width: 200px;
+        height: 40px;
+        background-color: red;
+        border: 1px solid red;
+        border-radius: 10px;
+       margin-right: 80px;
+       }
+      .in{
+        width:100%;
+        height:450px;
+        background-color:lightgray;
+        margin-top: 0%;
+      }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+          <div class="first flexbox">
+              <div class="l flexbox">
+                        <li><a href="">Partner with home lane</a></li>
+                        <li><a href="">Refer and Earn</a></li>
+                        <li><a href="">Join us</a></li>
+                        <li><a href="">Cities</a></li>
+                </div>
+              <div class="r flexbox">
+                        <li><a href="">Customer Support</a></li>
+                        <li><a href="">Visit Us</a></li>
+                        <li><a href="">Login/Register</a></li>
+              </div>
+          </div>
+          
+            <div class="second ">
+                <div class="left">
+                    <img  width=95%; height=40px  src="Home-Lane-Franchise-Logo (1).png">
+                </div>
+             
+                <div class="right flexbox">
+            
+                    
+                        <li><a href="">Design Gallery</a></li>
+                        <li><a href="">Modular Kitchen</a></li>
+                        <li><a href="">Wardrobe</a></li>
+                        <li><a href="">Bedroom</a></li>
+                        <li><a href="">Living Room</a></li>
+                    
+                
+                 
+                </div>
+                <div>
+                   <input class="btn" type="button" value="Get Free Estimate">
+                </div>
+            </div>
+          
+          
+        </header>
+        <main>
+          <div class="in">
+            <h1>Dream homes begin with dream designs.</h1>
+          </div>
+        </main>
+        <footer>
+
+        </footer>
+    </div>
+</body>
+</html>
